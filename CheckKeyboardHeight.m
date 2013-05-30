@@ -1,4 +1,3 @@
-
 - (CGFloat) checkInputMethod2
 {
     
@@ -11,9 +10,9 @@
                 keyBoardHeight = tmp.size.height;
                 if (keyBoardHeight == 252  ///< for iphone 單方向 直的
                     || keyBoardHeight == 198) {    ///< for iphone 單方向 橫的
-                    _inputMethodModify = 36;
+                    _inputMethodModify = 36;   ///<  有上方中文的選字框
                 } else {
-                    _inputMethodModify = 0;
+                    _inputMethodModify = 0;   ///< 無選字框 只有鍵盤
                 }
                 break;
             }
